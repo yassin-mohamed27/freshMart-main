@@ -12,7 +12,7 @@ export default function Hero() {
         transition={{ duration: 8, repeat: Infinity }}
         className="pointer-events-none absolute inset-0"
       >
-        <div className="absolute -top-40 left-1/2  -translate-x-1/2  from-emerald-500/20 via-teal-500/20 to-cyan-500/20 blur-3xl" />
+        <div className="absolute -top-40 left-1/2 -translate-x-1/2 bg-gradient-to-r from-emerald-500/20 via-teal-500/20 to-cyan-500/20 blur-3xl w-[600px] h-[600px]" />
       </motion.div>
 
       <div className="container mx-auto px-6 min-h-[calc(100vh-72px)] grid place-items-center py-10 relative">
@@ -37,7 +37,7 @@ export default function Hero() {
             className="text-4xl sm:text-5xl lg:text-6xl font-extrabold leading-tight"
           >
             Experience luxury in every choice with{" "}
-            <span className=" from-emerald-300 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
+            <span className="bg-gradient-to-r from-emerald-300 via-teal-300 to-cyan-400 bg-clip-text text-transparent">
               FreshMart
             </span>
           </motion.h1>
@@ -62,7 +62,7 @@ export default function Hero() {
           >
             <Link
               href="/products"
-              className="inline-flex items-center justify-center rounded-2xl  from-emerald-500 to-teal-500 px-8 py-3 text-sm font-semibold shadow-lg transition hover:scale-105"
+              className="inline-flex items-center justify-center rounded-2xl bg-gradient-to-r from-emerald-500 to-teal-500 px-8 py-3 text-sm font-semibold shadow-lg transition hover:scale-105"
             >
               Shop Now
             </Link>
